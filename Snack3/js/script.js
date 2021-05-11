@@ -4,7 +4,7 @@ var arrayProva = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function Prova(array, num1, num2) {
     var nuovoArray = [];
-    for (i = num1 + 1; i < num2; i++) {
+    for (i = num1; i < num2 - 1; i++) {
         nuovoArray.push(array[i]);
     }
     return nuovoArray;
